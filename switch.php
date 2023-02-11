@@ -4,10 +4,10 @@
     mostrar un ejemplo con if-else y otro con switch
     */
 
-    $color_favorito= "amarillo";
+    $color_favorito= "verde";
 
     //IF - ELSE
-    if ($color_favorito == "Verde" || $color_favorito == "morado" || $color_favorito == "rojo" || $color_favorito == "azul") {
+    if ($color_favorito == "verde" || $color_favorito == "morado" || $color_favorito == "rojo" || $color_favorito == "azul") {
         echo "Tu collor favorito es: " . $color_favorito;
     } else{
         echo "no encontre tu color favorito";
@@ -27,6 +27,9 @@
         case "rojo":
             echo "Tu collor favorito es: " . $color_favorito;
         break;
+
+        default:
+            echo "no esta tu color favorito";
 
     }
 ?> 
